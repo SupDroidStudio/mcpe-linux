@@ -1,3 +1,10 @@
+# 2.2 - "Meerkat"
+A huge update this time, with the following notable changes:
+- We now offer a .tar.xz format of mcpe-linux if you prefer this over .zip (.zip is still available though).
+- Fixed a bug on line 68 where there was an extra set of quote marks by accident, causing the very end of the script to exit with non-zero status.
+- The script now automatically aborts when something goes wrong, to prevent broken or partial installations.
+- Reduced the length of echo strings to ensure they stay on the screen without hyphenating over to a new line.
+- Mentioned the bug affecting version 1.13+ of MCPE (hopefully it'll get fixed soon - one can only dream!).
 # 2.1 - "Lemur"
 This update fixes some bugs in the installation script, and changes the installation cache directory to `~/.mcpe-linux-tmp` in order to clean up the home directory during installation and prevent accidental removal during installation and/or corruption of the installation files.
 # 2.0.1 - "Koala"
