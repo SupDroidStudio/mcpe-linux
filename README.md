@@ -24,7 +24,9 @@ The script requires at least 1GB of available RAM to be able to run without cras
 # Removal
 Run `sudo bash mcpe-linux-remove.sh`. This will unistall Minecraft and all its components from /usr/local. It will also remove the folders created in your home directory, however it won't remove the core dependencies, as some of them were already needed by the system and it is impossible to determine which ones were and were not. You can manually remove dependencies if you know which ones are safe to remove, however it may harm your system, so do so at your own risk!
 # Help / Support
-If you are stuck or are facing an issue, contact us at supdroid@mail.uk, or write an issue from the issues tab. The script has been tested and should work without fail, providing your device is supported.
+If you are stuck or are facing an issue, contact us at supdroid@mail.uk, or join The Sonic Master Discord server at http://bit.ly/SonicMasterDISCORD and ask your question in the "#support" channel. The script has been tested and should work without fail, providing your device is supported. You can open an issue, however this is discouraged as we do not get notified of issues so it will take time before we see it and can respond.
+# Contributing
+Contributions are always welcome! The script is written in friendly bash with almost every step described with comments. Make your edits to the script(s), recompress back into a .zip or a .tar.xz and then email supdroid@mail.uk or create a pull request. We look forward to seeing your contributions!
 # I don't own Minecraft on Google Play!
 That's alright! Please do the following to play Minecraft without purchasing it:
 1. Sign in with Google Play. Even if you don't own Minecraft, you must sign in for this to work.
