@@ -31,5 +31,15 @@ Contributions are always welcome! The script is written in friendly bash with al
 That's alright! Please do the following to play Minecraft without purchasing it:
 1. Sign in with Google Play. Even if you don't own Minecraft, you must sign in for this to work.
 2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
-# There is no sound!
-Install sound drivers - `sudo apt install libpulse0 libpulse0:i386` (this will install both amd64 and i386 varients which are both required). The latest version of the script "1.9 - Jaguar" (see: changelog.md), the sound drivers are installed as part of the "Core Dependencies".
+# Tested and fully compatible distros.
+- Ubuntu 18.04 LTS "Bionic"
+- Ubuntu 19.10 "Eoan"
+- Ubuntu 20.04 LTS "Focal"
+- Debian 10 "Buster"
+- Debian 11 "Bullseye"
+- Debian Unstable "Sid"
+- Linux Mint 19.x "Tara/Tessa/Tina/Tricia"
+- Parrot OS
+# Tested and incompatible distros.
+- Pop! OS 20.04 (Dependency issues, may work with some effort).
+- Deepin 20 (Dependency issues, may work with some effort).
