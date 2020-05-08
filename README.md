@@ -5,7 +5,7 @@ We (SupDroid Studio) have written this script, but we did not create the Minecra
 # Version naming scheme?
 It's not that original, we just choose an animal beginning with each letter going through the alphabet. Read all the versions in the changelog.md file!
 # Compatibility
-The script will work on all Debian-based distros that run the equivalent of Ubuntu 18.04/Debian 10 or above. If your distro or version is not supported, please manually build from https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html.
+The script will work on all Debian-based distros that run the equivalent of Ubuntu 18.04/Debian 10 or above. If your distro or version is not supported, please manually build from https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html. If you are unsure, please check the lists below, where we have fully tested the script on a range of distros.
 # System Requirements
 The script requires at least 1GB of available RAM to be able to run without crashing your PC, and Minecraft will need at least 2GB of RAM to be able to run without lag (although 4GB+ is advised) (swap area does not count). The installation takes about 2GB of disk space, not including game data, and cannot be installed to an external disk. Having at least 4GB of free disk space is recommended.
 # Instructions
