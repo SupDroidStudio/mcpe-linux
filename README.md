@@ -43,3 +43,4 @@ That's alright! Please do the following to play Minecraft without purchasing it:
 # Tested and incompatible distros.
 - Pop! OS 20.04 (Dependency issues, may work with some effort).
 - Deepin 20 (Dependency issues, may work with some effort).
+- SparkyLinux Rolling (One of the packages breaks apt, Use at your own risk).
