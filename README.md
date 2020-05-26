@@ -1,7 +1,7 @@
 # mcpe-linux
 This script automatically downloads, sets up and install Minecraft: Bedrock Edition on your Debian-based Linux device!
 # Disclaimer
-We (SupDroid Studio) have written this script, but we did not create the Minecraft: Bedrock Edition Linux port. It's source is available at https://github.com/minecraft-linux/mcpelauncher-manifest/wiki. In short, this script automatically executes the instructions found at https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html, instead of you needing to manually run all the commands. You may need to manually run the commands if you are not on a Debian-based distro, or if you are not on Ubuntu 18.04+ or equivalent. More about that below.
+We (SupDroid Studio) have written this script, but we did not create the Minecraft: Bedrock Edition Linux port. It was created by MrARM, and its source is available at https://github.com/minecraft-linux/mcpelauncher-manifest/wiki. In short, this script automatically executes the instructions found at https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html, instead of you needing to manually run all the commands. You may need to manually run the commands if you are not on a Debian-based distro, or if you are not on Ubuntu 18.04+ / Debian 10+ or equivalent. More about that below.
 # Version naming scheme?
 It's not that original, we just choose an animal beginning with each letter going through the alphabet. Read all the versions in the changelog.md file!
 # Compatibility
