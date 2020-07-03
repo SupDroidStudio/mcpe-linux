@@ -1,5 +1,7 @@
 # mcpe-linux
 This script automatically downloads, sets up and install Minecraft: Bedrock Edition on your Debian-based Linux device!
+# IMPORTANT NOTICE!
+This version of the launcher installed by this script does not support Minecraft versions of 1.13 and above. Due to this, this script is now deprecated in favour of ChristopherHX's fork, which is distributed in AppImage form and supports the latest Minecraft versions. The AppImage is arguably easier to install and also works on all platforms (not just Debian-based). Check out the fork AppImage plus installation instructions from https://github.com/ChristopherHX/linux-packaging-scripts/releases/tag/appimage. Do note that we'll still provide support even for people using the fork, and we still maintain our sideloadable versions (see below, section "I don't own Minecraft on Google Play").
 # Disclaimer
 We (SupDroid Studio) have written this script, but we did not create the Minecraft: Bedrock Edition Linux port. It was created by MrARM, and its source is available at https://github.com/minecraft-linux/mcpelauncher-manifest/wiki. In short, this script automatically executes the instructions found at https://mcpelauncher.readthedocs.io/en/latest/source_build/index.html, instead of you needing to manually run all the commands. You may need to manually run the commands if you are not on a Debian-based distro, or if you are not on Ubuntu 18.04+ / Debian 10+ or equivalent. More about that below.
 # Version naming scheme?
@@ -24,13 +26,13 @@ The script requires at least 1GB of available RAM to be able to run without cras
 # Removal
 Run `sudo bash mcpe-linux-remove.sh`. This will unistall Minecraft and all its components from /usr/local. It will also remove the folders created in your home directory, however it won't remove the core dependencies, as some of them were already needed by the system and it is impossible to determine which ones were and were not. You can manually remove dependencies if you know which ones are safe to remove, however it may harm your system, so do so at your own risk!
 # Help / Support
-If you are stuck or are facing an issue, contact us at supdroid@mail.uk, or join The Sonic Master Discord server at http://bit.ly/SonicMasterDISCORD and ask your question in the "#support" channel. The script has been tested and should work without fail, providing your device is supported. You can open an issue, however this is discouraged as we do not get notified of issues so it will take time before we see it and can respond.
+If you are stuck or are facing an issue, join The Sonic Master Discord server at http://bit.ly/SonicMasterDISCORD and ask your question in the "#support" channel. The script has been tested and should work without fail, providing your device is supported. You can open an issue, however this is discouraged as we do not get notified of issues so it will take time before we see it and can respond.
 # Contributing
 Contributions are always welcome! The script is written in friendly bash with almost every step described with comments. Make your edits to the script(s), recompress back into a .zip or a .tar.xz and then email supdroid@mail.uk or create a pull request. We look forward to seeing your contributions!
 # I don't own Minecraft on Google Play!
 That's alright! Please do the following to play Minecraft without purchasing it:
 1. Sign in with Google Play. Even if you don't own Minecraft, you must sign in for this to work.
-2. Go to http://bit.ly/mcpe-linux-zip. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file.
+2. Go to https://thesonicmaster.imfast.io/software/mcpe-linux. Read the "READ THIS FIRST!!!" text file - it contains instructions on how to download and install Minecraft. At this link, you can download the latest release of Minecraft in a ZIP file. **NOTE: If using ChristopherHX's fork, use the versions inside the "x86_64" folder at the link.**
 # Tested and fully compatible distros.
 - Ubuntu 18.04 LTS "Bionic"
 - Ubuntu 19.10 "Eoan"
