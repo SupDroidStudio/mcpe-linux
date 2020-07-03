@@ -1,3 +1,5 @@
+# 2.3 (Final Release) - "NoLongerSupported"
+This is the final ever release of the script which is now deprecated, codenamed "NoLongerSupported". A warning about deprecation and how to continue using the launcher and Minecraft versions 1.13+ are noted in the script.
 # 2.2 - "Meerkat"
 A huge update this time, with the following notable changes:
 - We now offer a .tar.xz format of mcpe-linux if you prefer this over .zip (.zip is still available though).
